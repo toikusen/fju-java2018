@@ -4,6 +4,23 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		String name = "yu cheng";
+		int english = 70;
+		int math = 90;
+		System.out.println(name + "\t" + english + "\t" + math +"\t" + (english+math)/2);
+		
+		Score stu = new Score("yu cheng",70,90);
+//		stu.name ="yu cheng";
+//		stu.english = 70;
+		stu.math = 90;
+		System.out.println(stu.score());
+		stu.hello();
+//		Student yu cheng = new Student();
+//		Student jack = null;
+//		jack hello();
+		
+		
 		Person p = new Person(68.5f,1.77f);
 //		p.weight = 68.5f;
 //		p.height = 1.77f;
