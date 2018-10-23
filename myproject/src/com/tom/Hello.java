@@ -1,9 +1,19 @@
 package com.tom;
 
+import java.util.Scanner;
+
 public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Your name:");
+		String s = scanner.nextLine();
+		System.out.println(s);
+		
+		
+		
 		
 		String name = "yu cheng";
 		int english = 70;
