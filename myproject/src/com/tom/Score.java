@@ -1,6 +1,7 @@
 package com.tom;
 
 public class Score {
+	
 	String name;
 	int english;
 	int math;
