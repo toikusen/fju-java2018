@@ -18,4 +18,5 @@ public class Weightcon {
 		return kg =(0.6*catty);
 	}
 	
+
 }
