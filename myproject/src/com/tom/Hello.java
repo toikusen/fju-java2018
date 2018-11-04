@@ -11,10 +11,6 @@ public class Hello {
 		System.out.print("Your name:");
 		String s = scanner.nextLine();
 		System.out.println(s);
-		
-		
-		
-		
 		String name = "yu cheng";
 		int english = 70;
 		int math = 90;

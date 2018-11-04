@@ -7,7 +7,7 @@ public class THSR {
 	public static void main(String[] args) {
 		
 		System.out.println("Mom said:How much do people take THSR form Taipei to Miaoli.");
-		System.out.println("Enter tour age.");
+		System.out.println("Enter your age.");
 		
 		while(true) {
 			Scanner scanner = new Scanner(System.in);
