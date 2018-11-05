@@ -12,7 +12,6 @@ public class Randomguess {
 		
 		System.out.print("Please enter a number,which from 1 to 100.\n");
 		
-		
 		int max = 100;
 	    int min = 1;
 	    
@@ -21,7 +20,10 @@ public class Randomguess {
 		Scanner print = new Scanner(System.in);
 		int a = print.nextInt();
 			
-		
+		if(a > 100 || a < 1) {
+		System.out.println("就跟你講範圍在1~100內了，傻逼嗎?" );
+			
+		}
 		if( a == secret) {
 	    System.out.println("You are right.");	
 	    	break;
@@ -31,13 +33,13 @@ public class Randomguess {
 			System.out.println("The number is from " + a + "~" + max);
 			min = a;
 	    }
-	    
+	   
 		else if(a > secret){
-			
 			System.out.println("The number is from " + min + "~" + a);
 			max = a;
 		}
-		
-	    }
+
+	    } 
+	    
 	}
 }

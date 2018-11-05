@@ -27,7 +27,7 @@ public class Hello {
 //		Student jack = null;
 //		jack.hello();
 		
-		
+	
 		Person p = new Person(68.5f,1.77f);
 //		p.weight = 68.5f;
 //		p.height = 1.77f;
@@ -45,7 +45,7 @@ public class Hello {
 //		Cube cube = new Cube();
 //		Cube jack = null;
 //		jack.hello();
-		
+		 
 		System.out.println("Are you 18? (Y/N)");
 		Scanner age = new Scanner(System.in);
 		String line = age.nextLine();
