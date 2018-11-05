@@ -1,7 +1,7 @@
 package com.tom;
 
 public class Score {
-	
+
 	String name;
 	int english;
 	int math;
@@ -11,7 +11,7 @@ public class Score {
 		this.english = english;
 		this.math = math;
 	}
-
+	
 	public void hello() {
 		System.out.println("Hello");
 

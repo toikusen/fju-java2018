@@ -20,6 +20,7 @@ public class Temp {
 		System.out.print("What is your name? "); 
 		String name = in.nextLine();
 		System.out.printf("Hello %s, age %d\n", name, age);
+		
 
 	}
 

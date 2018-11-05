@@ -3,10 +3,10 @@ package com.tom;
 public class Temperature {
 	
 	double Celsius;
-	
+
 	public Temperature(double Celsius){
 		this.Celsius = Celsius;
-		
+	
 	}
 	public double Fahrenheit(){
 		double Fahrenheit = (Celsius*(9.0/5.0)+32);
@@ -16,5 +16,6 @@ public class Temperature {
 		double Kelvin = Celsius+273.15;
 		return Kelvin;
 		
+	
 	}
 }
