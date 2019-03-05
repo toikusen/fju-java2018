@@ -16,16 +16,15 @@ public class tester {
 		primeNumber.add(11);
 		primeNumber.add(13);
 		primeNumber.add(2);
-		
 		System.out.println(primeNumber);
 		
-		Set<String> introduce = new HashSet<String>();
-		introduce.add("I");
-		introduce.add("am");
-		introduce.add("a");
-		introduce.add("student");
-		introduce.add("I");
-		System.out.println(introduce);
+		Set<String> wrongIntroduce = new HashSet<String>();
+		wrongIntroduce.add("I");
+		wrongIntroduce.add("am");
+		wrongIntroduce.add("a");
+		wrongIntroduce.add("student");
+		wrongIntroduce.add("I");
+		System.out.println(wrongIntroduce);
 	}
 
 }
