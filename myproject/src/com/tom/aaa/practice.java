@@ -13,7 +13,7 @@ public class practice {
 		while (! name.equals("q")) {
 			System.out.print("Please enter item name:(enter q:break)");
 			name = scanner.nextLine();
-			if (name == "q") {
+			if (name.equals("q")) {
 				break;
 			}
 			System.out.print("Please enter number:");
