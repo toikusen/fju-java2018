@@ -3,9 +3,9 @@ package com.tom;
 public class Student {
 	String name;
 	int english;
-	//public Student() {
+	public Student() {
 		
-	//}
+	}
 	
 	public Student(String name, int english) {
 	this.name = name;
