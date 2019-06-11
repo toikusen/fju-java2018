@@ -1,9 +1,7 @@
 package com.aaa;
 
-public class Wizard extends Thread{
-	public void thunder() {
-	synchronized (this) {
-		
+public class Wizard0604 extends Thread{
+	public static synchronized void thunder() {
 	
 	System.out.println("THUNDER START");
 		try {
@@ -13,16 +11,15 @@ public class Wizard extends Thread{
 		}
 		System.out.println("THUNDER END");
 	}
-}
 	@Override
 	public void run() {
 		thunder();
 	}
 	
 	public static void main(String[] atgs) {
-		Wizard w1 = new Wizard();
+		Wizard0604 w1 = new Wizard0604();
 		w1.start();
-		Wizard w2 = new Wizard();
+		Wizard0604 w2 = new Wizard0604();
 		w2.start();
 	}
 	
